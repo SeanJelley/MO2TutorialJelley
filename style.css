@@ -1,4 +1,17 @@
-html, body {
-  height: 100%;
+body::before{
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media(nim-width: 768px){
+  .news-input{
+    width: 50%;
+  }
+}
+
+#map{
   width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
